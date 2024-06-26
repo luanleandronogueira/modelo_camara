@@ -1,0 +1,390 @@
+@font-face {
+    font-family: 'Quan Slim';
+    src: url('QuanSlim-BlackItalic.eot');
+    src: local('Quan Slim Black Italic'), local('QuanSlim-BlackItalic'),
+        url('QuanSlim-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlim-BlackItalic.woff2') format('woff2'),
+        url('QuanSlim-BlackItalic.woff') format('woff'),
+        url('QuanSlim-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim';
+    src: url('QuanSlim-ExtraBoldItalic.eot');
+    src: local('Quan Slim ExtraBold Italic'), local('QuanSlim-ExtraBoldItalic'),
+        url('QuanSlim-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlim-ExtraBoldItalic.woff2') format('woff2'),
+        url('QuanSlim-ExtraBoldItalic.woff') format('woff'),
+        url('QuanSlim-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim';
+    src: url('QuanSlim-BoldItalic.eot');
+    src: local('Quan Slim Bold Italic'), local('QuanSlim-BoldItalic'),
+        url('QuanSlim-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlim-BoldItalic.woff2') format('woff2'),
+        url('QuanSlim-BoldItalic.woff') format('woff'),
+        url('QuanSlim-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim';
+    src: url('QuanSlim-Bold.eot');
+    src: local('Quan Slim Bold'), local('QuanSlim-Bold'),
+        url('QuanSlim-Bold.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlim-Bold.woff2') format('woff2'),
+        url('QuanSlim-Bold.woff') format('woff'),
+        url('QuanSlim-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim';
+    src: url('QuanSlim-Black.eot');
+    src: local('Quan Slim Black'), local('QuanSlim-Black'),
+        url('QuanSlim-Black.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlim-Black.woff2') format('woff2'),
+        url('QuanSlim-Black.woff') format('woff'),
+        url('QuanSlim-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim Rounded';
+    src: url('QuanSlimR-BoldItalic.eot');
+    src: local('Quan Slim Rounded Bold Italic'), local('QuanSlimR-BoldItalic'),
+        url('QuanSlimR-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlimR-BoldItalic.woff2') format('woff2'),
+        url('QuanSlimR-BoldItalic.woff') format('woff'),
+        url('QuanSlimR-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim Rounded SemiLight';
+    src: url('QuanSlimR-SemiLight.eot');
+    src: local('Quan Slim Rounded SemiLight'), local('QuanSlimR-SemiLight'),
+        url('QuanSlimR-SemiLight.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlimR-SemiLight.woff2') format('woff2'),
+        url('QuanSlimR-SemiLight.woff') format('woff'),
+        url('QuanSlimR-SemiLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim';
+    src: url('QuanSlim-LightItalic.eot');
+    src: local('Quan Slim Light Italic'), local('QuanSlim-LightItalic'),
+        url('QuanSlim-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlim-LightItalic.woff2') format('woff2'),
+        url('QuanSlim-LightItalic.woff') format('woff'),
+        url('QuanSlim-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim Rounded';
+    src: url('QuanSlimR-LightItalic.eot');
+    src: local('Quan Slim Rounded Light Italic'), local('QuanSlimR-LightItalic'),
+        url('QuanSlimR-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlimR-LightItalic.woff2') format('woff2'),
+        url('QuanSlimR-LightItalic.woff') format('woff'),
+        url('QuanSlimR-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim';
+    src: url('QuanSlim-Thin.eot');
+    src: local('Quan Slim Thin'), local('QuanSlim-Thin'),
+        url('QuanSlim-Thin.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlim-Thin.woff2') format('woff2'),
+        url('QuanSlim-Thin.woff') format('woff'),
+        url('QuanSlim-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim Rounded';
+    src: url('QuanSlimR-Thin.eot');
+    src: local('Quan Slim Rounded Thin'), local('QuanSlimR-Thin'),
+        url('QuanSlimR-Thin.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlimR-Thin.woff2') format('woff2'),
+        url('QuanSlimR-Thin.woff') format('woff'),
+        url('QuanSlimR-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim Rounded';
+    src: url('QuanSlimR-Black.eot');
+    src: local('Quan Slim Rounded Black'), local('QuanSlimR-Black'),
+        url('QuanSlimR-Black.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlimR-Black.woff2') format('woff2'),
+        url('QuanSlimR-Black.woff') format('woff'),
+        url('QuanSlimR-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim';
+    src: url('QuanSlim-ExtraBold.eot');
+    src: local('Quan Slim ExtraBold'), local('QuanSlim-ExtraBold'),
+        url('QuanSlim-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlim-ExtraBold.woff2') format('woff2'),
+        url('QuanSlim-ExtraBold.woff') format('woff'),
+        url('QuanSlim-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim Rounded';
+    src: url('QuanSlimR-ThinItalic.eot');
+    src: local('Quan Slim Rounded Thin Italic'), local('QuanSlimR-ThinItalic'),
+        url('QuanSlimR-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlimR-ThinItalic.woff2') format('woff2'),
+        url('QuanSlimR-ThinItalic.woff') format('woff'),
+        url('QuanSlimR-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim SemiLight';
+    src: url('QuanSlim-SemiLightItalic.eot');
+    src: local('Quan Slim SemiLight Italic'), local('QuanSlim-SemiLightItalic'),
+        url('QuanSlim-SemiLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlim-SemiLightItalic.woff2') format('woff2'),
+        url('QuanSlim-SemiLightItalic.woff') format('woff'),
+        url('QuanSlim-SemiLightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim';
+    src: url('QuanSlim-Regular.eot');
+    src: local('Quan Slim'), local('QuanSlim-Regular'),
+        url('QuanSlim-Regular.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlim-Regular.woff2') format('woff2'),
+        url('QuanSlim-Regular.woff') format('woff'),
+        url('QuanSlim-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim Rounded';
+    src: url('QuanSlimR-Regular.eot');
+    src: local('Quan Slim Rounded'), local('QuanSlimR-Regular'),
+        url('QuanSlimR-Regular.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlimR-Regular.woff2') format('woff2'),
+        url('QuanSlimR-Regular.woff') format('woff'),
+        url('QuanSlimR-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim Rounded';
+    src: url('QuanSlimR-BlackItalic.eot');
+    src: local('Quan Slim Rounded Black Italic'), local('QuanSlimR-BlackItalic'),
+        url('QuanSlimR-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlimR-BlackItalic.woff2') format('woff2'),
+        url('QuanSlimR-BlackItalic.woff') format('woff'),
+        url('QuanSlimR-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim';
+    src: url('QuanSlim-ExtraLight.eot');
+    src: local('Quan Slim ExtraLight'), local('QuanSlim-ExtraLight'),
+        url('QuanSlim-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlim-ExtraLight.woff2') format('woff2'),
+        url('QuanSlim-ExtraLight.woff') format('woff'),
+        url('QuanSlim-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim SemiLight';
+    src: url('QuanSlim-SemiLight.eot');
+    src: local('Quan Slim SemiLight'), local('QuanSlim-SemiLight'),
+        url('QuanSlim-SemiLight.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlim-SemiLight.woff2') format('woff2'),
+        url('QuanSlim-SemiLight.woff') format('woff'),
+        url('QuanSlim-SemiLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim';
+    src: url('QuanSlim-Light.eot');
+    src: local('Quan Slim Light'), local('QuanSlim-Light'),
+        url('QuanSlim-Light.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlim-Light.woff2') format('woff2'),
+        url('QuanSlim-Light.woff') format('woff'),
+        url('QuanSlim-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim Rounded';
+    src: url('QuanSlimR-Italic.eot');
+    src: local('Quan Slim Rounded Italic'), local('QuanSlimR-Italic'),
+        url('QuanSlimR-Italic.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlimR-Italic.woff2') format('woff2'),
+        url('QuanSlimR-Italic.woff') format('woff'),
+        url('QuanSlimR-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim';
+    src: url('QuanSlim-ExtraLightItalic.eot');
+    src: local('Quan Slim ExtraLight Italic'), local('QuanSlim-ExtraLightItalic'),
+        url('QuanSlim-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlim-ExtraLightItalic.woff2') format('woff2'),
+        url('QuanSlim-ExtraLightItalic.woff') format('woff'),
+        url('QuanSlim-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim';
+    src: url('QuanSlim-ThinItalic.eot');
+    src: local('Quan Slim Thin Italic'), local('QuanSlim-ThinItalic'),
+        url('QuanSlim-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlim-ThinItalic.woff2') format('woff2'),
+        url('QuanSlim-ThinItalic.woff') format('woff'),
+        url('QuanSlim-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim Rounded';
+    src: url('QuanSlimR-Light.eot');
+    src: local('Quan Slim Rounded Light'), local('QuanSlimR-Light'),
+        url('QuanSlimR-Light.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlimR-Light.woff2') format('woff2'),
+        url('QuanSlimR-Light.woff') format('woff'),
+        url('QuanSlimR-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim Rounded';
+    src: url('QuanSlimR-ExtraBold.eot');
+    src: local('Quan Slim Rounded ExtraBold'), local('QuanSlimR-ExtraBold'),
+        url('QuanSlimR-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlimR-ExtraBold.woff2') format('woff2'),
+        url('QuanSlimR-ExtraBold.woff') format('woff'),
+        url('QuanSlimR-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim';
+    src: url('QuanSlim-Italic.eot');
+    src: local('Quan Slim Italic'), local('QuanSlim-Italic'),
+        url('QuanSlim-Italic.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlim-Italic.woff2') format('woff2'),
+        url('QuanSlim-Italic.woff') format('woff'),
+        url('QuanSlim-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim Rounded';
+    src: url('QuanSlimR-ExtraBoldItalic.eot');
+    src: local('Quan Slim Rounded ExtraBold Italic'), local('QuanSlimR-ExtraBoldItalic'),
+        url('QuanSlimR-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlimR-ExtraBoldItalic.woff2') format('woff2'),
+        url('QuanSlimR-ExtraBoldItalic.woff') format('woff'),
+        url('QuanSlimR-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim Rounded SemiLight';
+    src: url('QuanSlimR-SemiLightItalic.eot');
+    src: local('Quan Slim Rounded SemiLight Italic'), local('QuanSlimR-SemiLightItalic'),
+        url('QuanSlimR-SemiLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlimR-SemiLightItalic.woff2') format('woff2'),
+        url('QuanSlimR-SemiLightItalic.woff') format('woff'),
+        url('QuanSlimR-SemiLightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quan Slim Rounded';
+    src: url('QuanSlimR-Bold.eot');
+    src: local('Quan Slim Rounded Bold'), local('QuanSlimR-Bold'),
+        url('QuanSlimR-Bold.eot?#iefix') format('embedded-opentype'),
+        url('QuanSlimR-Bold.woff2') format('woff2'),
+        url('QuanSlimR-Bold.woff') format('woff'),
+        url('QuanSlimR-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
