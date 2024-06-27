@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Câmara Municipal de #</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="preload" href="css/font/QuanSlimR-SemiLight.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- <link rel="preload" href="css/font/QuanSlimR-SemiLight.woff2" as="font" type="font/woff2" crossorigin> -->
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/819cb1918b.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
 
-    <div class="topo0">
+    <div class="topo0 d-none d-lg-block">
       <div class="container">
         <div class="col-xs-12">
           <table width="100%" border="0">
@@ -35,7 +35,9 @@
                   <span class="badge text-bg-secondary border rounded-circle">5</span>
 
                 </td>
-                <td width="8%" align="right" style="font-size: 12px"></td>
+                <td width="8%" align="right" style="font-size: 12px">
+                  <a href="#" class="no-underline"><strong> Mapa do Site</strong></a>
+                </td>
                 <td width="17%" align="right" style="font-size: 12px">
                   <i class="fa fa-phone" aria-hidden="true"> (87) 3847-1666</i>
                 </td>
@@ -47,12 +49,78 @@
       </div>
     </div>
 
-    <div class="topo1 topo1Cor">
+    <!-- <nav class="navbar topoMobile d-block d-lg-none">
+      <div class="container-fluid ">
+          <a class="navbar-brand" href="#">
+              <img src="css/imagens/logo.nome.png" alt="Logo" width="231" height="73" class="d-inline-block align-text-top">
+          </a>
+      </div>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-block d-lg-none">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="css/imagens/logo.nome.png" alt="Logo" width="231" height="73" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0"><br>
+
+            <a href="javascript:void(0);" class="no-underline1" data-menu="a-camara">
+                A Câmara <span class="fa fa-angle-down hidden-xs" style="font-size: 14px;"></span>
+            </a><br>
+
+
+
+            <a class="no-underline1" data-bs-toggle="offcanvas" href="#offcanvasExample" aria-controls="offcanvasExample">
+              A Câmara <span class="fa fa-angle-down hidden-xs" style="font-size: 14px;"></span>
+            </a>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">A Câmara</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <div>
+                  <li><a href="">Teste 001</a></li>
+                  <li><a href=""></a></li>
+                  <li><a href=""></a></li>
+                  <li><a href=""></a></li>
+                  <li><a href=""></a></li>
+                  <li><a href=""></a></li>
+                </div>
+              </div>
+            </div>
+
+            <a href="javascript:void(0);" class="no-underline1" data-menu="vereadores">
+                Vereadores <span class="fa fa-angle-down hidden-xs" style="font-size: 14px;"></span>
+            </a><br>
+            <a href="javascript:void(0);" class="no-underline1" data-menu="atos-legislativos">
+                Atos Legislativos <span class="fa fa-angle-down hidden-xs" style="font-size: 14px;"></span>
+            </a><br>
+            <a href="javascript:void(0);" class="no-underline1" data-menu="transparencia">
+                Transparência <span class="fa fa-angle-down hidden-xs" style="font-size: 14px;"></span>
+            </a><br>
+            <a href="javascript:void(0);" class="no-underline1" data-menu="fale-conosco">
+                Fale Conosco <span class="fa fa-angle-down hidden-xs" style="font-size: 14px;"></span>
+            </a><br>
+            <div class="google-custom-search pull-right">
+                <script async src="https://cse.google.com/cse.js?cx=f1d1e89548522e64a"></script>
+                <div class="gcse-search"></div>
+            </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="topo1 topo1Cor d-none d-lg-block">
       <nav class="navbar">
-          <img src="./css/imagens/logo.brasao.png" id="logo_brasao" alt="Câmara Municipal de #" width="83" height="91">
           <div class="container">
               <a class="navbar-brand " href="#">
-                  <img src="./css/imagens/logo.nome.png" id="logo_nome" alt="Câmara Municipal de #" width="231" height="73">
+                  <img src="./css/imagens/logo.instituicao.png" id="logo_nome" alt="Câmara Municipal de #" width="300" height="80">
               </a>
               <a href="javascript:void(0);" class="no-underline1" data-menu="a-camara">
                   A Câmara <span class="fa fa-angle-down hidden-xs" style="font-size: 14px;"></span>
@@ -80,9 +148,9 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-4">
-                <a class="navbar-brand" href="#">
-                    <img src="./css/imagens/logo.instituicao.png" alt="Câmara Municipal de #" width="326" height="88">
-                </a>
+              <a class="navbar-brand d-none d-lg-block" href="#">
+                <img src="./css/imagens/logo.instituicao.png" alt="Câmara Municipal de #" width="326" height="88">
+              </a>
             </div>
             <div class="col-xl-2">
                 <strong>A Câmara</strong>
@@ -116,9 +184,9 @@
     <div class="container">
       <div class="row">
           <div class="col-xl-4">
-              <a class="navbar-brand" href="#">
-                  <img src="./css/imagens/logo.instituicao.png" alt="Câmara Municipal de #" width="326" height="88">
-              </a>
+            <a class="navbar-brand d-none d-lg-block" href="#">
+              <img src="./css/imagens/logo.instituicao.png" alt="Câmara Municipal de #" width="326" height="88">
+            </a>
           </div>
           <div class="col-xl-2">
               <strong>Vereadores</strong>
@@ -137,9 +205,9 @@
     <div class="container">
       <div class="row">
           <div class="col-xl-4">
-              <a class="navbar-brand" href="#">
-                  <img src="./css/imagens/logo.instituicao.png" alt="Câmara Municipal de #" width="326" height="88">
-              </a>
+            <a class="navbar-brand d-none d-lg-block" href="#">
+              <img src="./css/imagens/logo.instituicao.png" alt="Câmara Municipal de #" width="326" height="88">
+            </a>
           </div>
           <div class="col-xl-4">
               <strong>Atos Legislativos</strong>
@@ -180,9 +248,9 @@
   <div class="container">
     <div class="row">
         <div class="col-xl-4">
-            <a class="navbar-brand" href="#">
-                <img src="./css/imagens/logo.instituicao.png" alt="Câmara Municipal de #" width="326" height="88">
-            </a>
+          <a class="navbar-brand d-none d-lg-block" href="#">
+            <img src="./css/imagens/logo.instituicao.png" alt="Câmara Municipal de #" width="326" height="88">
+          </a>
         </div>
         <div class="col-xl-4">
             <strong>Transparência</strong>
@@ -198,13 +266,22 @@
                 <li><a class="no-underline2" href=""> - Radar de Transparência Pública (ATRICON)</a></li>
                 <li><a class="no-underline2" href=""> - Contra Cheque Online</a></li>
                 <li><a class="no-underline2" href=""> - Leis Municipais</a></li>
-
-
             </ul>
         </div>
-
     </div>
 </div>
+</div>
+
+<div class="fixed-icons">
+  <a href="https://www.facebook.com" target="_blank" class="icon">
+      <img width="48" height="48" src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new">
+  </a>
+  <a href="https://www.youtube.com" target="_blank" class="icon">
+      <img width="48" height="48" src="https://img.icons8.com/color/48/youtube-play.png" alt="youtube-play" alt="YouTube Logo">
+  </a>
+  <a href="https://www.instagram.com" target="_blank" class="icon">
+      <img width="48" height="48" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new">
+  </a>
 </div>
 
 <div class="mt-3 pb-3 pt-3" id="fale-conosco" style="display: none;">
@@ -212,9 +289,9 @@
   <div class="container">
     <div class="row">
         <div class="col-xl-4">
-            <a class="navbar-brand" href="#">
-                <img src="./css/imagens/logo.instituicao.png" alt="Câmara Municipal de #" width="326" height="88">
-            </a>
+          <a class="navbar-brand d-none d-lg-block" href="#">
+            <img src="./css/imagens/logo.instituicao.png" alt="Câmara Municipal de #" width="326" height="88">
+          </a>
         </div>
         <div class="col-xl-4">
             <strong>Fale Conosco</strong>
@@ -400,23 +477,257 @@
 
       </center>
        <br>
-
-      
-      
-      
-     
-
-    
-  
     </div>
   </div>
-</br></br></br>
+      </br></br></br>
  </div>
 
-</br></br></br>
-</br></br></br>
+  <div class="container ">
 
-    
+    <div class="mt-3">
+      <h4>Confira nossas últimas notícias</h4> Noticias oficiais da Câmara de Vereadores
+      <span class="float-end fl">
+        <strong>|</strong> <a href="" class="no-underline1">Ver todas as notícias</a>
+      </span>
+    </div>
+
+    <div class="row align-items-center text-center mt-3 mb-5">
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            <a href="" class="no-underline1">
+              <img src="css/imagens/imagem01.png" class="img-thumbnail border-0" alt="..."><br><br>
+              <span>Feliz dia do Idoso!</span>
+            </a>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+              <a href="" class="no-underline1">
+                <img src="css/imagens/imagem02.png" class="img-thumbnail border-0" alt="..."><br><br>
+                <span>Venha pra o nosso arraiá!</span>
+              </a>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+              <a href="" class="no-underline1">
+                <img src="css/imagens/imagem03.png" class="img-thumbnail border-0" alt="..."><br><br>
+                <span>Desejamos o feliz dia do trabalhador a todos</span>
+              </a>
+          </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="mt-3">
+        <center>
+          <h4>Nossa agenda está aqui!</h4> Venha conferir nossas reuniões
+        </center>
+        <!-- <span class="float-end fl">
+          <strong>|</strong> <a href="" class="no-underline1">Ver todas as notícias</a>
+        </span> -->
+      </div> <br><br><br><br>
+    </div>
+  </div>
+
+  <div class="degrade">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-7"><br><br><br>
+                <h4 class="text-light">
+                    Todos são bem-vindos. Visite a casa do povo e assista nossas reuniões.
+
+                    <hr>
+
+                    <h5 class="text-light">Últimas Sessões</h5><br>
+                    
+                    <small><a class="no-underline" href="">ATA DA 22.ª REUNIÃO ORDINÁRIA DO 2.º PERÍODO LEGISLATIVO DA CÂMARA MUNICIPAL DE GARANHUNS</a></small>
+                    <hr class="no-underline">
+
+                    <small><a class="no-underline" href="">ATA DA 21.ª REUNIÃO ORDINÁRIA DO 2.º PERÍODO LEGISLATIVO DA CÂMARA MUNICIPAL DE GARANHUNS</a></small>
+                    <hr class="no-underline">
+
+                    <small><a class="no-underline" href="">ATA DA 20.ª REUNIÃO ORDINÁRIA DO 2.º PERÍODO LEGISLATIVO DA CÂMARA MUNICIPAL DE GARANHUNS</a></small>
+                    <hr class="no-underline">
+                </h4>
+            </div>
+            <div class="col-12 col-lg-5 mt-2">
+                <iframe class="rounded w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.9441904255546!2d-36.48841773701131!3d-8.884781189174666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7070ce76304d419%3A0xfc60655b1561939c!2sC%C3%A2mara%20de%20Vereadores%20de%20Garanhuns!5e0!3m2!1spt-BR!2sbr!4v1719494581070!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+  
+  <br><br><br><br>
+
+  <div class="container degrade1 border rounded"><br>
+    <div class="row">
+      <h5 class="text-light text-center">Legislação atual: 2021 - 2024</h5>
+      <div>
+        <hr class="text-light">
+      </div>
+      
+      <div>
+        <div class="col-xs-12 col-sm-12 col-lg-12 text-center ">
+          <a href="detalha_vereador?id=61" title="" data-toggle="tooltip" data-placement="top" alt="Argemiro de Morais Silva" data-original-title="Argemiro de Morais Silva">
+            <figure class="figure">
+              <img class="rounded" src="http://it-solucoes.inf.br/admnews/CM_Ingazeira/cm_ingazeira-20230426085225.jpg" width="130px" class="councilors-item-pic" alt="Argemiro de Morais Silva">
+            </figure>
+          </a>
+          <a href="detalha_vereador?id=61" title="" data-toggle="tooltip" data-placement="top" alt="Argemiro de Morais Silva" data-original-title="Argemiro de Morais Silva">
+            <figure class="figure">
+              <img class="rounded" src="http://it-solucoes.inf.br/admnews/CM_Ingazeira/cm_ingazeira-20230426085558.jpg" width="130px" class="councilors-item-pic" alt="Argemiro de Morais Silva">
+            </figure>
+          </a>
+          <a href="detalha_vereador?id=61" title="" data-toggle="tooltip" data-placement="top" alt="Argemiro de Morais Silva" data-original-title="Argemiro de Morais Silva">
+            <figure class="figure">
+              <img class="rounded" src="https://it-solucoes.inf.br/admnews/CM_Ingazeira/cm_ingazeira-20230426081155.jpg" width="130px" class="councilors-item-pic" alt="Argemiro de Morais Silva">
+            </figure>
+          </a>
+          <a href="detalha_vereador?id=61" title="" data-toggle="tooltip" data-placement="top" alt="Argemiro de Morais Silva" data-original-title="Argemiro de Morais Silva">
+            <figure class="figure">
+              <img class="rounded" src="https://it-solucoes.inf.br/admnews/CM_Ingazeira/cm_ingazeira-20230426081605.jpg" width="130px" class="councilors-item-pic" alt="Argemiro de Morais Silva">
+            </figure>
+          </a>
+          <a href="detalha_vereador?id=61" title="" data-toggle="tooltip" data-placement="top" alt="Argemiro de Morais Silva" data-original-title="Argemiro de Morais Silva">
+            <figure class="figure">
+              <img class="rounded" src="http://it-solucoes.inf.br/admnews/CM_Ingazeira/cm_ingazeira-20230426085558.jpg" width="130px" class="councilors-item-pic" alt="Argemiro de Morais Silva">
+            </figure>
+          </a>
+          <a href="detalha_vereador?id=61" title="" data-toggle="tooltip" data-placement="top" alt="Argemiro de Morais Silva" data-original-title="Argemiro de Morais Silva">
+            <figure class="figure">
+              <img class="rounded" src="https://it-solucoes.inf.br/admnews/CM_Ingazeira/cm_ingazeira-20230426084931.jpg" width="130px" class="councilors-item-pic" alt="Argemiro de Morais Silva">
+            </figure>
+          </a>
+          <a href="detalha_vereador?id=61" title="" data-toggle="tooltip" data-placement="top" alt="Argemiro de Morais Silva" data-original-title="Argemiro de Morais Silva">
+            <figure class="figure">
+              <img class="rounded" src="https://it-solucoes.inf.br/admnews/CM_Ingazeira/cm_ingazeira-20230426080507.jpg" width="130px" class="councilors-item-pic" alt="Argemiro de Morais Silva">
+            </figure>
+          </a>
+          <a href="detalha_vereador?id=61" title="" data-toggle="tooltip" data-placement="top" alt="Argemiro de Morais Silva" data-original-title="Argemiro de Morais Silva">
+            <figure class="figure">
+              <img class="rounded" src="http://it-solucoes.inf.br/admnews/CM_Ingazeira/cm_ingazeira-20230426085558.jpg" width="130px" class="councilors-item-pic" alt="Argemiro de Morais Silva">
+            </figure>
+          </a>
+          <a href="detalha_vereador?id=61" title="" data-toggle="tooltip" data-placement="top" alt="Argemiro de Morais Silva" data-original-title="Argemiro de Morais Silva">
+            <figure class="figure">
+              <img class="rounded" src="http://it-solucoes.inf.br/admnews/CM_Ingazeira/cm_ingazeira-20230426085558.jpg" width="130px" class="councilors-item-pic" alt="Argemiro de Morais Silva">
+            </figure>
+          </a>
+
+        
+        
+        
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+      <div class="mt-5">
+
+        <div class="text-center float-center">
+          <img src="css/imagens/logo.instituicao.png" class="img-fluid" alt="..."><br><br>
+            <p>Rua Albino Feitos, s/n - Ingazeira/PE - CEP 56830-000 </br>
+              E-mail: camaraingazeira@gmail.com </br>
+              Fone: (87) 3829-1158 </br>
+              Atendimento: Seg à Sex 8h às 13h
+            </p>
+            
+        </div><br><br>
+
+        <div class="mt-5">
+          <h4 class="text-center">Acesso Rápido</h4>
+        </div>
+
+        <div class="container mt-4">
+          <div class="row">
+            
+                  <div class="col-xl-3 col-xxl-3 col-lg-3">
+                      <strong>Legislativos</strong>
+                      <hr>
+                      <ul class="ulTexto">
+                        <li><a class="no-underline1" href="">Agenda Oficial</a></li>
+                        <li><a class="no-underline1" href="">Atas das Reuniões</a></li>
+                        <li><a class="no-underline1" href="">Pautas das Reuniões</a></li>
+                        <li><a class="no-underline1" href="">Requerimentos</a></li>
+                        <li><a class="no-underline1" href="">Vereadores</a></li>
+                      </ul>
+                  </div>
+
+                  <div class="col-xl-3 col-xxl-3 col-lg-3">
+                    <strong>Atendimento ao Cidadão</strong>
+                    <hr>
+                    <ul class="ulTexto">
+                      <li><a class="no-underline1" href="">e-SIC</a></li>
+                      <li><a class="no-underline1" href="">Glossário</a></li>
+                      <li><a class="no-underline1" href="">Perguntas Frequentes</a></li>
+                      <li><a class="no-underline1" href="">Mapa do Site</a></li>
+                      <li><a class="no-underline1" href="">Ouvidoria</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xl-3 col-xxl-3 col-lg-3">
+                  <strong>Transparência Legislativa</strong>
+                  <hr>
+                  <ul class="ulTexto">
+                    <li><a class="no-underline1" href="">Portal da Transparência</a></li>
+                    <li><a class="no-underline1" href="">Transmissão das Reuniões</a></li>
+                    <li><a class="no-underline1" href="">Lei Organica</a></li>
+                    <li><a class="no-underline1" href="">Regimento Interno</a></li>
+                    <li><a class="no-underline1" href="">Radar de Transparência Pública (ATRICON)</a></li>
+                  </ul>
+              </div>
+
+              <div class="col-xl-3 col-xxl-3 col-lg-3">
+                <strong>Demais Recursos</strong>
+                <hr>
+                <ul class="ulTexto">
+                  <li><a class="no-underline1" href="">Prefeitura Municipal de #</a></li>
+                  <li><a class="no-underline1" href="">Breve Histórico</a></li>
+                  <li><a class="no-underline1" href="">Serviços Digitais</a></li>
+                  <li><a class="no-underline1" href="">Leis Municipais</a></li>
+                  <li><a class="no-underline1" href="">Telefones</a></li>
+                </ul>
+              </div>
+          </div>
+        </div>  
+
+        <div class="row">
+          <div class="mt-5 text-center">
+            <small class="text-center"><strong>Redes Sociais</strong></small><br>
+              <span>
+                <a href=""><img width="48" height="48" src="https://img.icons8.com/color/48/youtube-play.png" alt="youtube-play"/></a>
+              </span> 
+              <span>
+                <a href="">
+                  <img width="48" height="48" src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new"/></a>
+                </span> 
+              <span>
+                <a href="">
+                  <img width="48" height="48" src="https://img.icons8.com/color/48/twitter--v1.png" alt="twitter--v1"/>
+                </a>
+              </span> 
+              <span>
+                <a href="">
+                  <img width="48" height="48" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/>
+                </a>
+              </span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="mt-5 text-center">
+            © 2024. Todos os direitos reservados </br>
+            Desenvolvido por <strong>IT Soluções Inteligentes</strong>.
+
+          </div>
+        </div>
+        <br><br><br><br>
+
+      </div>
+
+  </footer>
 
 
 
@@ -424,5 +735,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
+    <!-- <script type='text/javascript' src='https://cdn.userway.org/widget.js'></script> -->
   </body>
 </html>

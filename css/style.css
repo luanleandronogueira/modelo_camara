@@ -1,14 +1,5 @@
-@font-face {
-    font-family: 'QuanSlimR';
-    src: url('css/font/QuanSlimR-SemiLight.woff2') format('woff2');
-    font-weight: 600; /* Ajuste o peso conforme necessário */
-    font-style: normal; /* Ajuste o estilo conforme necessário */
-}
 
-body {
-    
-    font-family: 'QuanSlimR', sans-serif;
-}
+
 
 .no-underline {
     text-decoration: none;
@@ -39,6 +30,11 @@ body {
 
     background-color: #01bafd;
     padding: 5px;
+}
+
+.topoMobile {
+
+    background-color: #ffffff;
 }
 
 
@@ -163,4 +159,61 @@ ul.ulTexto li {
         
     top: 2px;
 }
+
+@media (max-width: sm) {
+    .fl {
+      float: none; 
+      text-align: center; 
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .borda0 {
+      border-left: none;
+    }
+  }
+
+  .degrade {
+
+    background: linear-gradient(to right, #0095d8 0%, #3625c2 90%, #3625c2 100%);
+
+  }
+
+  .degrade1 {
+
+    background: linear-gradient(to right, #050a10 0%, #294c72 90%, #0f1c2d 100%);
+
+  }
+
+  .borda0 {
+    border-left: solid 30px #ffffff;
+
+  }
+
+  footer {
+
+    background: linear-gradient(to top, #01bafd 0%, #ffffff 100%);
+
+  }
+
+  .fixed-icons {
+    position: fixed;
+    top: 70%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+}
+
+.fixed-icons .icon {
+    margin: 3px 0;
+}
+
+.fixed-icons img {
+    width: 40px; /* Ajuste o tamanho conforme necessário */
+    height: 40px; /* Ajuste o tamanho conforme necessário */
+}
+
 
